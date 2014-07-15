@@ -24,7 +24,7 @@ var bootstrap = function(port) {
   
     breach.expose('init', function(src, args, cb_) {
       breach.module('core').call('tabs_new_tab_url', { 
-        url: 'http://127.0.0.1:' + port + '/newtab'
+        url: 'http://127.0.0.1:' + port + '/dashboard'
       }, function(err) {
         console.log('New tab page set! [' + err + ']');
       });

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dashboard app">
+    <meta name="author" content="Shrikant Patnaik">
+
+    <title>Dashboard</title>
+
+    <!-- font awesome -->
+    <link href="components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- dashboard style -->
+    <link href="styles/main.css" rel="stylesheet">
+
+
+</head>
+
+<body ng-app="dashboard">
+
+<div class="container" ng-controller="mainCtrl">
+    <adf-dashboard name="{{name}}" structure="4-8" adf-model="model" />
+</div>
+
+<script type="text/javascript" src="components/jquery/jquery.js"></script>
+
+<script type="text/javascript" src="components/jquery-ui/ui/jquery.ui.core.js"></script>
+<script type="text/javascript" src="components/jquery-ui/ui/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="components/jquery-ui/ui/jquery.ui.mouse.js"></script>
+<script type="text/javascript" src="components/jquery-ui/ui/jquery.ui.sortable.js"></script>
+
+<script type="text/javascript" src="components/angular/angular.js"></script>
+
+<script type="text/javascript" src="components/angular-route/angular-route.js"></script>
+
+<script type="text/javascript" src="components/angular-bootstrap/ui-bootstrap.js"></script>
+<script type="text/javascript" src="components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<script type="text/javascript" src="scripts/adf.js"></script>
+<script type="text/javascript" src="scripts/provider.js"></script>
+<script type="text/javascript" src="scripts/sortable.js"></script>
+<script type="text/javascript" src="scripts/widget-content.js"></script>
+<script type="text/javascript" src="scripts/widget.js"></script>
+<script type="text/javascript" src="scripts/dashboard.js"></script>
+
+<script type="text/javascript" src="components/angular-local-storage/angular-local-storage.js"></script>
+
+<script type="text/javascript" src="scripts/main.js"></script>
+<script type="text/javascript" src="scripts/structures.js"></script>
+
+<script type="text/javascript" src="scripts/widgets/news/news.js"></script>
+
+<script type="text/javascript" src="scripts/widgets/weather/weather.js"></script>
+
+<script type="text/javascript" src="scripts/widgets/linklist/linklist.js"></script>
+
+<script type="text/javascript" src="components/showdown/src/showdown.js"></script>
+<script type="text/javascript" src="components/angular-markdown-directive/markdown.js"></script>
+<script type="text/javascript" src="scripts/widgets/markdown/markdown.js"></script>
+
+<script type="text/javascript" src="scripts/widgets/randommsg/randommsg.js"></script>
+
+<script type="text/javascript" src="components/highcharts/highcharts.js"></script>
+<script type="text/javascript" src="components/highcharts-ng/dist/highcharts-ng.js"></script>
+<script type="text/javascript" src="scripts/widgets/github/github.js"></script>
+</body>
+</html>
