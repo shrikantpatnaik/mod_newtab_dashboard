@@ -1,7 +1,7 @@
 mod_newtab_dashboard
 ====================
 
-Basic User cutomizable AngularJS dashboard as new tab. Based on [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
+Basic User customizable dashboard as new tab. Based on [angular-dashboard-framework](https://github.com/sdorra/angular-dashboard-framework).
 
 ![Alt text](http://i.imgur.com/bWDbdM8.png)
 
