@@ -68,3 +68,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/9d117b1b142ca12b98fd4a1c29597933 "githalytics.com")](http://githalytics.com/shrikantpatnaik/mod_newtab_dashboard)
+
